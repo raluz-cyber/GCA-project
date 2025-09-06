@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  background: #0d0d0d;
+  color: #fdfaf1;
+}
+.site-header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+.hero {
+  padding-top: 100px;
+  text-align: center;
+}
+.hero h1 {
+  color: #eeca44;
+}
+.hero p {
+  color: #fdfaf1;
+}
+.hero-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.hero-cards img {
+  border: 3px solid #fdfaf1;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
